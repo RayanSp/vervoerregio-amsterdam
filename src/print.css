@@ -1,0 +1,30 @@
+@media print {
+    
+    body {
+        background-color: var(--c-white);
+        color: black;
+    
+     }
+
+     nav {
+        display: none !important;
+     }
+
+     /* richtlijnen en criteria pagina */
+
+    .btn-top {
+        display: none;
+    }
+
+    .submit {
+        display: none;
+    }
+
+    article {
+        background-color: #ffffff !important;
+    }
+   
+    aside {
+        display: none !important;
+    }
+}

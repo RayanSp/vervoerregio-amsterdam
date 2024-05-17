@@ -131,15 +131,6 @@
 </section>
 
 <style>
-	@media print {
-		.btn-top {
-			display: none;
-		}
-
-		.submit {
-			display: none;
-		}
-	}
 
 	.submit {
 		position: fixed;
@@ -382,5 +373,16 @@
 		to {
 			transform: rotate(360deg);
 		}
+	}
+
+	@media print {
+
+	input[type='checkbox']:checked {
+		background-color: var(--c-white);
+	}
+	section details:not(:nth-child(1)) {
+		border-top: 1px solid var(--c-container-stroke);
+	}
+
 	}
 </style>

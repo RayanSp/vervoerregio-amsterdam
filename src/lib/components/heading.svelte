@@ -37,6 +37,7 @@
 </section>
 
 <style>
+
 	/* container heading 1 */
 	section {
 		display: flex;
@@ -57,5 +58,12 @@
 	}
 	h1 {
 		font-size: clamp(1.3rem, 4vw, 3.8rem);
+	}
+
+	@media print {
+		section {
+			border-top: none;
+			background-color: #efefef;
+		}
 	}
 </style>
