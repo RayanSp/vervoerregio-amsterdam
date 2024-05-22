@@ -1,33 +1,48 @@
-![Vervoerregio Amsterdam](https://user-images.githubusercontent.com/1061632/191292939-24d4ffc0-51da-44b2-9317-981b0a436e15.png)
+# Vervoerregio Amsterdam | Sprint 18
 
+Live link: [https://toolgankelijk.vercel.app/](https://toolgankelijk.vercel.app/)
 
-De Vervoerregio Amsterdam verbindt gemeenten en werkt aan een regio waar mensen vlot hun bestemming bereiken. De gemeenten Aalsmeer, Amstelveen, Amsterdam, Diemen, Edam-Volendam, Haarlemmermeer, Landsmeer, Oostzaan, Ouder-Amstel, Purmerend, Uithoorn, Waterland, Wormerland en Zaanstad vormen samen de Vervoerregio Amsterdam. Vanaf 1 januari 2022 zijn gemeente Beemster en gemeente Purmerend samengegaan en bestaat de Vervoerregio sindsdien uit veertien gemeenten. 
+## Inhoudsopgave
 
-De Vervoerregio is opdrachtgever van het openbaar vervoer per bus, tram en metro. Hiervoor verlenen we concessies aan vervoerbedrijven en subsidie voor de exploitatie van het openbaar vervoer. Ook investeren we in nieuwe trams en metro’s.
+  * [Beschrijving](#beschrijving)
+  * [Kenmerken](#kenmerken)
+  * [Installatie](#installatie)
+  * [Bronnen](#bronnen)
+  * [Licentie](#licentie)
 
-## Resources
+## Beschrijving
 
-[Backlog](https://github.com/orgs/fdnd-agency/projects/8/views/1?visibleFields=%5B%22Title%22%2C%22Assignees%22%2C%22Status%22%2C%22Labels%22%5D)
+De Toolgankelijkheid website voor Vervoerregio Amsterdam waarmee medewerkers intern hun partners kunnen controleren op de toegankelijkheid van hun websites. 
 
-<!--[Sprintplanning Miro Board](https://miro.com/app/board/uXjVPhXSEn0=/?share_link_id=694598263794)-->
+![image](https://github.com/WesleySchorel/lose-your-head-the-client-case/assets/112857487/3044aca6-4b97-42b7-bc4d-501c73ca8a4a)
 
-[Headless CMS API](https://app.hygraph.com/87ee9d0aec0041dda6d11564cc26f08b/master)
+## Kenmerken
 
-[Handboek Huisstijl](https://github.com/fdnd-agency/vervoerregio-amsterdam/blob/main/Vervoerregio%20Handboek_Huisstijl%202021.pdf)  
- 
-## Design
-De basis voor het design is gelegd in het prototype van Tom  
+Dit project is ontwikkeld door middel van Sveltekit. De inhoud wordt opgehaald door middel van een query uit Hygraph. De code wordt gehost op github en vervolgens door middel van Vercel live gezet. De code wordt gehost op GitHub. De live-versie van de website is beschikbaar op Netlify. Netlify is geïntegreerd met de GitHub Repository en genereert automatisch een nieuwe versie van de applicatie bij elke update op de main.
 
-Prototype Tom: [Live site](https://dull-cyan-seagull-hose.cyclic.app/) | [GitHub repo](https://github.com/tom-2810/the-web-is-for-everyone-interactive-functionality)  
+Wij hebben de volgende technieken en technologiën gebruikt:
 
-## Functionaliteiten
-De basis voor functionaliteiten en inhoud is gelegd in het prototype van Wesley, Rick & Daan
+* Svelte
+* Sveltekit
+* Hygraph
+* HTML
+* JS
+* CSS
+* Figma
 
-Prototype Wesley, Rick & Daan: [Live site](https://vervoerregio-amsterdam-sprint11.adaptable.app/) | [GitHub repo](https://github.com/WesleySchorel/connecting-people-realtime-web-app)  
+## Installatie
+```
+1. Clone de repository
+2. Open de repo via github desktop
+3. Installeer npm packages d.m.v. npm install
+4. Run de localhost d.m.v. npm run dev
+```
 
-## Preferred tech stack
+## Bronnen
 
-Framework: [SvelteKit](https://kit.svelte.dev/)   
-Headless CMS: [Hygraph](https://hygraph.com/)
+[FDND agency](https://github.com/fdnd-agency/vervoerregio-amsterdam) <br>
+[Hygraph mutation](https://hygraph.com/docs/api-reference/content-api/mutations) <br>
 
+## Licentie
 
+This project is licensed under the terms of the [MIT license](./LICENSE).
