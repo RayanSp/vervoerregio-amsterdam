@@ -271,6 +271,7 @@
 		display: flex;
 		flex-direction: column;
 		margin-top: -19px;
+		width: 30em;
 	}
 
 	section {
@@ -434,7 +435,7 @@
 		/* margin-top: 1rem; */
 		border-radius: 4px;
 		cursor: pointer;
-		z-index: 2;
+		/* z-index: 2; */
 	}
 
 	.btn-vertaling:hover {
